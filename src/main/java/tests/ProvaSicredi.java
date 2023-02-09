@@ -18,6 +18,7 @@ public class ProvaSicredi {
 	
 	@DataProvider // parameters for desafio1 test	 
 	public Object[][] dataProviderDesafio1() {
+		// Grocery CRUD URL has recently changed to https://www.grocerycrud.com/v1.x/demo/bootstrap_theme
 		return new Object[][] {
 			new Object[] { "https://www.grocerycrud.com/demo/bootstrap_theme", "Bootstrap V4 Theme", "Teste Sicredi", "Teste", "Marcus", 
 					"51 9999-9999",	"Av Assis Brasil, 3970", "Torre D", "Porto Alegre", "RS", "91000-000", "Brasil", "Fixter", "200",
